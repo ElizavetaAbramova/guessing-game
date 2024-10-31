@@ -14,7 +14,7 @@ class GuessingGame {
     guess() {
         this.guessNum = Math.round((this.max + this.min) / 2);
         return this.guessNum;
-        //сравнить загаданное число с серединой
+        //сравнить загаданное число с серединой, возвращая только значение середины
     }
 
     lower() {
